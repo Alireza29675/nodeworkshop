@@ -57,6 +57,9 @@ img {
 a {
     text-decoration: none;
 }
+pre {
+    font-size: 16px;
+}
 .highlight {
     color: white;
     background: #444;

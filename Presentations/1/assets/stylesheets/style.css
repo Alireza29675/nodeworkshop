@@ -10,3 +10,8 @@
 .step:nth-child(4) > img {
     width: 700px;
 }
+
+.step:nth-child(18) > img {
+    width: 200px;
+    margin: -40px;
+}

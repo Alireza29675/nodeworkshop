@@ -136,9 +136,15 @@ const PI = 3.1415;</code></pre>
                 <img src="./assets/images/if.png" alt="If Icon">
                 <h2>if, else if, else</h2>
                 <ul>
-                    <li>if: <span class="comment">// if (expression) { /* do something */ }</span></li>
-                    <li>else if: <span class="comment">// else if (expression) { /* do something */ }</span></li>
-                    <li>else: <span class="comment">// else { /* do something */ }</span></li>
+                    <li>if statement:<pre><code class="language-javascript">if (expression) {
+    /* do something */
+}
+else if (expression2) {
+    /* do something */
+}
+else {
+    /* do something */
+}</code></pre></li>
                     <li>Inline if (expression if): <span class="comment">// expression ? ifTrue : ifFalse</span></li>
                 </ul>
             </div>
@@ -151,30 +157,50 @@ const PI = 3.1415;</code></pre>
             <!-- / if -->
 
             <!-- switch / case -->
-            <div class="step" data-z="-600" data-y="5800">
+            <div class="step" data-z="-600" data-y="5600">
                 <h2>Switch/Case</h2>
-                <ul>
-                    <pre><code class="language-javascript">switch (expression) {
+                <pre><code class="language-javascript">switch (expression) {
     case value1:
         /* do something */
         break;
     case value2:
     case value3:
-        /* do something */
+        /* do something else if expression was value2 */
         break;
     case default:
-        /* do something */
+        /* do something else */
         break;
 }</code></pre>
-                </ul>
             </div>
 
-            <div class="step" data-x="600" data-z="100" data-y="5800" data-rotate-y="15">
+            <div class="step" data-x="600" data-z="100" data-y="5600" data-rotate-y="15">
                 <a target="_blank" href="https://jsbin.com/?js,console">
                     <h2 class="mark">Go further in JSBin!</h2>
                 </a>
             </div>
             <!-- / switch / case -->
+
+            <!-- for loop -->
+            <div class="step" data-z="-600" data-y="6400">
+                <img src="./assets/images/loop.svg" alt="For loop icon">
+                <h2>For Loop</h2>
+                <pre><code class="language-javascript">for (let i = 0; i < 200; i++) {
+    /* do something 200 times */
+}</code></pre>
+                <pre><code class="language-javascript">for (let item of array) {
+    /* iterate all items of an array */
+}</code></pre>
+                <pre><code class="language-javascript">for (let prop in object) {
+    /* iterate all properties of object */
+}</code></pre>
+            </div>
+
+            <div class="step" data-x="600" data-z="100" data-y="6400" data-rotate-y="15">
+                <a target="_blank" href="https://jsbin.com/?js,console">
+                    <h2 class="mark">Go further in JSBin!</h2>
+                </a>
+            </div>
+            <!-- / for loop -->
 
         </div>
         <!-- Presentation Ends Here -->
