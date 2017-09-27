@@ -15,3 +15,7 @@
     width: 200px;
     margin: -40px;
 }
+
+.step:nth-child(20) > img {
+    height: 200px;
+}
