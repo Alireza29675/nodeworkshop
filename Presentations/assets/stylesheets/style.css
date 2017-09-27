@@ -63,6 +63,9 @@ a {
     padding: 10px 15px;
     border-radius: 5px;
 }
+.comment {
+    color: #45b19e;
+}
 .big {
     font-size: 20px;
 }
