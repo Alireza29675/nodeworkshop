@@ -1,0 +1,59 @@
+
+/* BASIC TYPOGRAPHY */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body {
+    background: radial-gradient(#fff, #eee, #bbb)
+}
+.step {
+    white-space: nowrap;
+    text-align: center;
+    opacity: 0.3;
+    transition-duration: 1.5s;
+}
+.step.active {
+  opacity: 1
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    background-image: -webkit-linear-gradient(#333, #999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1.mark, h2.mark, h3.mark, h4.mark, h5.mark, h6.mark {
+    background-image: -webkit-linear-gradient(#8646fb, #d604e7)
+}
+h1 { font-size: 70px; }
+h2 { font-size: 54px; }
+h3 { font-size: 42px; }
+h4 { font-size: 30px; }
+h5 { font-size: 23px; }
+h6 { font-size: 17px; }
+pre { font-size: 30px; }
+p {
+    margin: 5px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+ul, ol {
+    text-align: left;
+    font-size: 25px;
+    list-style-type: square;
+    margin-left: 30px;
+    margin-top: 40px;
+    opacity: 0.8;
+}
+li {
+    margin-top: 10px;
+    padding-left: 6px;
+}
+img {
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+}
