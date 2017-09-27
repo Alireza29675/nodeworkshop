@@ -18,7 +18,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-    margin: 0;
+    margin: 20px;
     padding: 0;
     background-image: -webkit-linear-gradient(#333, #999);
     -webkit-background-clip: text;
@@ -56,4 +56,13 @@ img {
 }
 a {
     text-decoration: none;
+}
+.highlight {
+    color: white;
+    background: #444;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.big {
+    font-size: 20px;
 }
