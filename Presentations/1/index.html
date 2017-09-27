@@ -222,6 +222,63 @@ else {
             </div>
             <!-- / while loops -->
 
+            <!-- Functions -->
+            <div class="step" data-z="-600" data-y="7900">
+                <h2>Functions</h2>
+                <pre><code class="language-javascript">const funcName = (x, y) => {
+    // some codes to run
+    return x + y;
+}</code></pre>
+                <pre><code class="language-javascript">const funcName = function (x, y) {
+    // some codes to run
+    return x + y;
+}</code></pre>
+                <pre><code class="language-javascript">function funcName (x, y) {
+    // some codes to run
+    return x + y;
+}</code></pre>
+            </div>
+
+            <div class="step" data-x="600" data-z="100" data-y="7900" data-rotate-y="15">
+                <a target="_blank" href="https://jsbin.com/?js,console">
+                    <h2 class="mark">Go further in JSBin!</h2>
+                </a>
+            </div>
+            <!-- / Functions -->
+
+            <!-- Classes -->
+            <div class="step" data-z="-600" data-y="8600">
+                <h2>Classes</h2>
+                <pre><code class="language-javascript">class Programmer {
+    constructor (name) {
+        this.name = name;
+        this.experiences = [];
+    }
+    code (language) {
+        console.log(`Huray! I'm coding with ${language}!`);
+        this.experiences.push(language);
+    }
+    hasExperienceWith (language) {
+        return this.experiences.includes(language);
+    }
+}
+
+const alireza = new Programmer(`Alireza`);
+alireza.code(`javascript`);
+if (alireza.hasExperienceWith(`javascript`)) console.log(`Hire ${alireza.name} ASAP!`)</code></pre>
+            </div>
+
+            <div class="step" data-x="600" data-z="100" data-y="8600" data-rotate-y="15">
+                <a target="_blank" href="https://jsbin.com/?js,console">
+                    <h2 class="mark">Go further in JSBin!</h2>
+                </a>
+            </div>
+            <!-- / Classes -->
+
+            <div class="step" data-x="-800" data-z="6000" data-y="5000" data-rotate-z="90">
+                <h2 class="mark">WooHoo! JS is easy isn't it?</h2>
+            </div>
+
         </div>
         <!-- Presentation Ends Here -->
 
