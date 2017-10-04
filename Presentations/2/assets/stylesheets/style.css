@@ -1,0 +1,21 @@
+.step:nth-child(1) img {
+    width: 250px;
+}
+
+.step:nth-child(2) > span {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.step:nth-child(4) > img {
+    width: 700px;
+}
+
+.step:nth-child(18) > img {
+    width: 200px;
+    margin: -40px;
+}
+
+.step:nth-child(20) > img {
+    height: 200px;
+}
