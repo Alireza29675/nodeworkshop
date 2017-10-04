@@ -1,0 +1,25 @@
+{
+  "name": "nodeworkshop",
+  "version": "1.0.0",
+  "description": "Node workshop presentation and assets",
+  "main": "index.js",
+  "scripts": {
+    "presentation": "http-server ./Presentations"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alireza29675/nodeworkshop.git"
+  },
+  "keywords": [
+    "node",
+    "workshop",
+    "presentation",
+    "impress"
+  ],
+  "author": "Alireza Sheikholmolouki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alireza29675/nodeworkshop/issues"
+  },
+  "homepage": "https://github.com/Alireza29675/nodeworkshop#readme"
+}
