@@ -3,32 +3,7 @@ var router = express.Router();
 
 const title = 'Node Messenger'
 
-const users = {
-  mina: {
-    name: 'Shohre',
-    status: ''
-  },
-  elon: {
-    name: 'Hamed',
-    status: 'Happy:)'
-  },
-  paydar: {
-    name: 'Amirhosein',
-    status: 'Sad'
-  },
-  yb: {
-    name: 'Yones',
-    status: ''
-  },
-  li: {
-    name: 'Elahe',
-    status: 'Happy:)'
-  },
-  hacka: {
-    name: 'Alireza',
-    status: 'Eating Pizza all the time..'
-  }
-}
+const users = require('../users.json')
 
 /* GET users listing. */
 router.get('/:username', function(req, res, next) {

@@ -91,4 +91,12 @@ function onListening() {
 
 
 // SOCKET IO
+const users = require('../users.json')
 var io = require('socket.io').listen(server)
+
+io.on('connection', function(socket) {
+  socket.on('new-msg', function (data) {
+    data.name = users[data.username].name
+    io.emit('broadcast message', data);
+  })
+})

@@ -28,18 +28,33 @@ sendForm.onsubmit = function (e) {
     const message = sendInput.value;
     const username = window.username;
     sendInput.value = '';
-    addMessageToChatroom(username, 'Yones', message)
+    socket.emit('new-msg', {
+        username: username,
+        message: message
+    })
 }
 
 var addMessageToChatroom = function (username, name, message) {
+    const date = new Date();
+    const time = String(date.getHours()).padStart(2, 0) + ':' + String(date.getMinutes()).padStart(2, 0);
     const newMessage = `<li>
         <a href='/users/${username}' target='_new'>
             <img src='/images/users/${username}.jpg' />
         </a>
         <span>${name}</span>
         <p>${message}</p>
-        <time>03:15</time>
+        <time>${time}</time>
     </li>`
-    messageBox.innerHTML += newMessage;
+    messageBox.innerHTML = newMessage + messageBox.innerHTML;
 }
 
+
+var socket = io.connect('/');
+
+socket.on('broadcast message', function (data) {
+    addMessageToChatroom(
+        data.username,
+        data.name,
+        data.message
+    )
+})
