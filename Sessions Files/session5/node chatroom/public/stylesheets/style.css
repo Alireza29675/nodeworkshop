@@ -9,7 +9,7 @@ div {
     text-align: center;
 }
 h1 {
-    font-size: 30px;
+    font-size: 50px;
     margin: 0;
     padding: 0;
     font-weight: 100;
@@ -17,21 +17,21 @@ h1 {
 div > a {
     color: white;
     background: #333;
-    padding: 5px 10px;
-    padding-top: 3px;
-    border-radius: 3px;
+    padding: 8px 15px;
+    padding-top: 6px;
+    border-radius: 6px;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 20px;
     text-decoration: none;
-    font-size: 12px;
-    transition-duration: 0.3s;
+    font-size: 20px;
+    transition-duration: 0.2s;
 }
 div > a:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     opacity: 0.8;
 }
 div > a:active {
-    transform: scale(1);
+    transform: scale(0.95);
     opacity: 0.6;
 }
 
@@ -46,8 +46,8 @@ footer {
     background: #EEE;
 }
 footer > a {
-    font-size: 9px;
-    margin: 10px;
+    font-size: 14px;
+    margin: 15px;
     text-decoration: none;
     color: #333;
 }
@@ -55,4 +55,15 @@ footer > a.selected {
     font-weight: normal;
     color: #888;
     pointer-events: none;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.status {
+    text-align: center;
+    margin-top: 10px;
+    color: #1f9d8e;
 }

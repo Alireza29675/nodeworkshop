@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eae3a7ca-58b7-47d5-87da-2aa5a3de4cfa" name="Default" comment="Session 3 exercise files committed">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/bin/www" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/public/stylesheets/about.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/public/stylesheets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/routes/users.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/views/about.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/views/chatroom.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/views/error.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/views/home.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session4/node chatroom/views/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/bin/www" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/public/stylesheets/about.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/public/stylesheets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/routes/users.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/views/about.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/views/chatroom.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/views/error.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/views/home.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sessions Files/session5/node chatroom/views/layout.jade" />
+    <list default="true" id="eae3a7ca-58b7-47d5-87da-2aa5a3de4cfa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -87,8 +63,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sessions Files/session5/node chatroom/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="720">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -264,7 +240,7 @@
       <workItem from="1507273758380" duration="666000" />
       <workItem from="1507306825850" duration="33000" />
       <workItem from="1507377690817" duration="1247000" />
-      <workItem from="1507873389555" duration="73000" />
+      <workItem from="1507873389555" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="Very first slide has been made">
       <created>1506534698364</created>
@@ -371,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507377723594</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Session 4 exercises added">
+      <created>1507873477329</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1507873477329</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29766000" />
+    <option name="totallyTimeSpent" value="29949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -426,7 +409,8 @@
     <MESSAGE value="Second session's images committed" />
     <MESSAGE value="Session 3 added completely!" />
     <MESSAGE value="Session 3 exercise files committed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Session 3 exercise files committed" />
+    <MESSAGE value="Session 4 exercises added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session 4 exercises added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -832,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sessions Files/session5/node chatroom/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="720">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
       </provider>

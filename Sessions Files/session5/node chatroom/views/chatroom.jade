@@ -2,4 +2,12 @@ extends layout
 
 block content
     div
-        h1 Chatroom
+        h1 Enter your username:
+        input.username
+        button.login Login
+    main.show
+        section.messages
+        section.send-message
+
+    link(rel="stylesheet", href="/stylesheets/chatroom.css")
+    script(src="/javascripts/chatroom.js")
