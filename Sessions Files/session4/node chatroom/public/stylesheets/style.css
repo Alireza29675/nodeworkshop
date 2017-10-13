@@ -1,0 +1,58 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h1 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+div > a {
+    color: white;
+    background: #333;
+    padding: 5px 10px;
+    padding-top: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.3s;
+}
+div > a:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+div > a:active {
+    transform: scale(1);
+    opacity: 0.6;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEE;
+}
+footer > a {
+    font-size: 9px;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+}
+footer > a.selected {
+    font-weight: normal;
+    color: #888;
+    pointer-events: none;
+}

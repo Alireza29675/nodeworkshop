@@ -1,0 +1,14 @@
+html
+    head
+        if page == 'Home'
+            title #{title}
+        else
+            title #{title} | #{page}
+        link(rel="stylesheet", href="/stylesheets/style.css")
+        link(rel="stylesheet", href="/stylesheets/about.css")
+    body
+        block content
+        footer
+            a(class=(page === 'Home' ? 'selected' : ''), href="/") Home
+            a(class=(page === 'Chatroom' ? 'selected' : ''), href="/chatroom") Chatroom
+            a(class=(page === 'About' ? 'selected' : ''), href="/about") About
