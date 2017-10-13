@@ -49,4 +49,8 @@ router.get('/:username', function(req, res, next) {
   }
 });
 
+router.post('/login', function (req, res, next) {
+  res.json(!!users[req.body.username])
+})
+
 module.exports = router;
